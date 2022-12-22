@@ -85,11 +85,17 @@ REST API created with Python, the web/Api framework Flask and MySQL, with the pr
     result = requests.get('http://127.0.0.1:5001/hired_by_qs')
     result = result.status_code,result.text
 
+![image](https://user-images.githubusercontent.com/75091406/209176385-5ef9882c-1654-497a-b969-0531f032ce43.png)
+
+
 #### generating the metric over the mean 2021 with the /hired_over_the_mean endpoint
 
     import requests
     result = requests.get('http://127.0.0.1:5001/hired_over_the_mean')
     result = result.status_code,result.text
+
+![image](https://user-images.githubusercontent.com/75091406/209176345-43db4048-7d56-41cc-bf80-3f1287d853b5.png)
+
 
 #### Create (an attempt) a visual report
    (Even though i have created dashboards in DataDog and Grafana for metrics, i don't know how to do visual reports (a trully report), so i tried my best haha.)
