@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "flask_rest_api"
+version = "0.1.0"
+description = ""
+authors = ["largolo <luciano.argolo@mercadolibre.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Flask = "^2.2.2"
+pandas = "^1.5.2"
+mysql-connector-python = "^8.0.31"
+pandavro = "^1.7.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
