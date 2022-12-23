@@ -2,6 +2,17 @@
 
 REST API created with Python, the web/Api framework Flask and MySQL, with the protocol HTTP and the methos GET and POST.
 
+
+- To test locally the poetry dependencies must be installed:
+    - `pip install poetry` 
+    - `poetry install`
+    - And the configuration of the connection of mysql, must be set as the the default (user=root, password=password and host=localhost, if running mysql of the docker compose)
+
+- To test locally with Docker:
+    - Have docker installed
+    - run docker-compose up, where the docker compose file is located.
+    - You are ready to play with the endpoints, grafana, mysql and the repo
+
 Connection Tools:
    - Mysql server:
         - host: localhost
@@ -26,16 +37,6 @@ Connection Tools:
             - /hired_by_qs
             - /hired_over_the_mean
 
-
-- To test locally the poetry dependencies must be installed:
-    - `pip install poetry` 
-    - `poetry install`
-    - And the configuration of the connection of mysql, must be set as the the default (user=root, password=password and host=localhost, if running mysql of the docker compose)
-
-- To test locally with Docker:
-    - Have docker installed
-    - run docker-compose up, where the docker compose file is located.
-    - You are ready to play with the endpoints, grafana, mysql and the repo
 
 
 # Challenge 1
