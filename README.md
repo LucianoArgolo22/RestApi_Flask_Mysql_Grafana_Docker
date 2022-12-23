@@ -100,8 +100,8 @@ REST API created with Python, the web/Api framework Flask and MySQL, with the pr
 #### Create (an attempt of) a visual report
    (Even though i have created dashboards in DataDog and Grafana for metrics, i don't know how to do visual reports (a trully report), so i tried my best haha.)
 
-![Captura de Pantalla 2022-12-22 a la(s) 13 04 06](https://user-images.githubusercontent.com/75091406/209174630-7cdab635-6fd9-44ad-81d3-66bab15e38cc.png)
 
+![Captura de Pantalla 2022-12-23 a la(s) 10 25 19](https://user-images.githubusercontent.com/75091406/209343487-b4961d7e-921e-4231-b6a4-f4e6a0d2ee56.png)
 
 
 
